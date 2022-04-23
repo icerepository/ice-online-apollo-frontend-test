@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "airbnb", "airbnb-typescript", "airbnb/hooks", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-param-reassign": ["error", { "ignorePropertyModificationsFor": ["state"] }],
+    "prettier/prettier": "error",
+    "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "react/destructuring-assignment": "off",
+    "react/prop-types": "off",
+    "import/prefer-default-export": "off"
+  }
+}

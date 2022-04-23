@@ -1,0 +1,8 @@
+/bin/
+/node_modules/
+/infrastructure/node_modules/
+.idea/
+.vim/
+build/
+dist/
+./CHANGELOG.md

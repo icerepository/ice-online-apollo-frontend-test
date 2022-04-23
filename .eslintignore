@@ -1,0 +1,11 @@
+/bin/
+/node_modules/
+/infrastructure/node_modules/
+.idea/
+.vim/
+build/
+
+.eslintcache
+!.lintstagedrc.js
+dist/
+commitlint.config.ts

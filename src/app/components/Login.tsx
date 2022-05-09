@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from '../hooks';
 import { isAuthenticated, login } from '../../features/auth/authSlice';
 import useAuth from '../hooks/useAuth';
 
-const Login: React.FC = () => {
+const Login: React.FC = function () {
   const isAuth = useAppSelector(isAuthenticated);
   const dispatch = useAppDispatch();
   // const { isAuth, login } = useAuth(); // our goal

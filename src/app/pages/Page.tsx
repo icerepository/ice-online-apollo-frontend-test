@@ -9,12 +9,14 @@ import { NonLoggedInCard } from './NonLoggedInCard';
  * TODO: The task I
  * ================
  */
-const Page: React.FC = () => (
-  <Stack spacing={4}>
-    <Login />
-    <NonLoggedInCard id="nonLoggedIn" />
-    <LoggedInCard id="loggedIn" />
-  </Stack>
-);
+const Page: React.FC = function () {
+  return (
+    <Stack spacing={4}>
+      <Login />
+      <NonLoggedInCard id="nonLoggedIn" />
+      <LoggedInCard id="loggedIn" />
+    </Stack>
+  );
+};
 
 export default Page;

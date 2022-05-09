@@ -5,7 +5,7 @@ import { useAppSelector } from '../hooks';
 import { getName } from '../../features/auth/authSlice';
 import useAuth from '../hooks/useAuth';
 
-export const NonLoggedInCard: React.FC<{ id?: string }> = ({ id }) => {
+export const NonLoggedInCard: React.FC<{ id?: string }> = function ({ id }) {
   const name = useAppSelector(getName);
   // const { name } = useAuth(); // our goal
 
